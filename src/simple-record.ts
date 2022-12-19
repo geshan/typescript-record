@@ -1,7 +1,8 @@
-const record:Record<string, string> = {
-  'a': 'first',
-  'b': 'second',
-  //'a': 'another a as key is not allwed'
+const record:Record<number, string> = {
+  1: 'first',
+  2: 'second',
+  //1: 'another a as key is not allowed'
+  //a: 'not allowed type'
 };
 
-console.log(`first in the record : ${record['a']}`);
+console.log(`first in the record : ${record[1]}`);
